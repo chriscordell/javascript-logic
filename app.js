@@ -23,15 +23,24 @@
 15/50;
 
 // Modulus (%)
+
 5 % 2;
 
 // Increment (++)
+var a = 2;
+a++;
+console.log(a);
 2++;
 
 -1++;
 
 // Decrement (--)
-5--;
+//5--;
+ var c = 5;
+ c--;
+ console.log("Decrement " + c);
+
+
 
 /*
 * Comparison Operators (These return a boolean value of true or false)
@@ -75,3 +84,4 @@ null <= null;
 */
 var a = "apple";
 var b = 2;
+
